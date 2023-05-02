@@ -10,8 +10,6 @@
 
   <title>Frontend Mentor | Sunnyside agency landing page</title>
 
-
-
   <link rel="stylesheet" href="style.css">
 
 </head>
@@ -21,16 +19,28 @@
   <div class="container">
 
     <div class="header-web">
-      <div class="logo">
-        <img src="./images/logo.svg" alt="">
-      </div>
 
-      <!-- <nav>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Projects</a>
-        <a href="#">Contact</a>
-      </nav> -->
+      <div class="header-top">
+        <div class="logo">
+          <img src="./images/logo.svg" alt="">
+        </div>
+
+        <div class="navbar">
+          <img src="./images/icon-hamburger.svg" alt="" onclick="toggle()">
+          <nav id="mobile-navbar">
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a id="contact" href="#">CONTACT</a></li>
+            </ul>
+            
+            
+            
+            
+          </nav>
+        </div>
+      </div>
 
       <h1>WE ARE CREATIVES</h1>
 
@@ -170,6 +180,8 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div> -->
+
+  <script src="./script.js"></script>
 </body>
 
 </html>
