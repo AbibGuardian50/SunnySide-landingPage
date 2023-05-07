@@ -1,5 +1,5 @@
 function toggle() {
-    let x = document.getElementById("mobile-navbar");
+    let x = document.getElementById("navbar");
     if (x.style.display === "block") {
         x.style.display = "none";
     } else {
