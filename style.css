@@ -224,12 +224,12 @@ footer > .footer-section2 > svg:hover {
     padding-bottom: 8rem;
 }
 
-.navbar > img {
+.navbar-web > img {
     cursor: pointer;
     padding-right: 1rem;
 }
 
-.navbar > nav {
+.navbar-web > nav {
     display: none;
 }
 
@@ -252,9 +252,9 @@ nav::after {
     right: 0;
     top: -1.2rem;
     border-top: 0.6rem solid transparent;
-    border-bottom: 0.6rem solid hsl(46, 55%, 94%);
+    border-bottom: 0.6rem solid var(--Neutral-White);
     border-left: 0.6rem solid transparent;
-    border-right: 0.6rem solid hsl(46, 55%, 94%);
+    border-right: 0.6rem solid var(--Neutral-White);
 }
 
 nav > ul {
@@ -411,4 +411,74 @@ nav > ul > li > a#contact {
 .stand-out img {
     max-width: 100%;
     height: auto;
+}
+
+@media only screen and (min-width: 600px){
+    .graphic-design , .photography {
+        padding-top: 38rem;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .navbar-web img {
+        display: none;
+    }
+
+    .navbar-web > nav {
+        display: block;
+    }
+
+    nav {
+        margin: 0;
+        padding: 0;
+        background: none;
+        position: relative;
+        width: 100%;
+        left: 0px;
+        right: 0px;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav > ul {
+        background: var();
+        flex-direction: row;
+    }
+
+    nav > ul > li > a {
+        text-decoration: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Barlow', sans-serif;
+        font-weight: 600;
+        color: var(--Neutral-White);
+    }
+
+    nav::after {
+        content: none;
+        position: relative;
+        right: 0;
+        top: 0;
+        border: 0;
+    }
+
+    .header-web > .header-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    
+}
+
+@media only screen and (min-width: 1200px){
+    
+}
+
+@media only screen and (min-width: 1440px){
+    
 }
