@@ -168,6 +168,7 @@ footer>.footer-section2>svg:hover {
 .gallery>.gallery-1,
 .gallery>.gallery-2 {
     display: flex;
+    width: 100%;
 }
 
 .graphic-design {
